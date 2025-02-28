@@ -1,0 +1,9 @@
+[submodule "ms-medico"]
+	path = ms-medico
+	url = https://github.com/luizfilipebp/ms-medico.git
+[submodule "ms-paciente"]
+	path = ms-paciente
+	url = https://github.com/luizfilipebp/ms-paciente.git
+[submodule "ms-reiceiturario"]
+	path = ms-reiceiturario
+	url = https://github.com/luizfilipebp/ms-reiceiturario.git
