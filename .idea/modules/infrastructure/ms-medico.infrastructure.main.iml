@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.module.type="sourceSet" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_17">
+    <output url="file://$MODULE_DIR$/../../../ms-medico/infrastructure/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../ms-medico/infrastructure/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../ms-medico/infrastructure/src/main/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="ms-medico.application.main" />
+    <orderEntry type="module" module-name="ms-medico.usecase.main" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:6.2.0" level="project" />
+    <orderEntry type="module" module-name="ms-medico.core.main" />
+    <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.18.26" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:6.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:6.1.15" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.persistence:jakarta.persistence-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.mapstruct:mapstruct:1.5.3.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-jpa:3.3.3" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.transaction:jakarta.transaction-api:2.0.1" level="project" />
+    <orderEntry type="module" module-name="ms-paciente.application.main" />
+    <orderEntry type="module" module-name="ms-paciente.core.main" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:6.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:3.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:3.4.0" level="project" />
+  </component>
+</module>

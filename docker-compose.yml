@@ -1,0 +1,12 @@
+services:
+  db-mspaciente:
+    image: postgres:16.3
+    restart: always
+    ports:
+      - 5401:5432
+    environment:
+      POSTGRES_DB: paciente
+      POSTGRES_USER: paciente
+      POSTGRES_PASSWORD: root
+    volumes:
+      - ./database/paciente:/var/lib/postgresql/data
